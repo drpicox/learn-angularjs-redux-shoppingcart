@@ -1,8 +1,10 @@
-Introduction to Javascript by testing
-=====================================
+Example of AngularJS + Redux
+============================
 
-A small course introducing Javascript that uses test
-to introduce and teach concepts.
+Is an example that shows concepts explained at 
+https://github.com/drpicox/learn-angularjs-redux-bytesting
+in practice based in the original todo app redux example
+http://redux.js.org/docs/basics/ExampleTodoList.html .
 
 
 Setup
@@ -41,13 +43,19 @@ Setup
 How To
 ------
 
-Once opened you will see tens of tests failing.
-Your task is make them pass.
+Open with your favorite IDE and mess around.
 
-Tests are inside spec/ directory. 
-Each spec file is numbered.
-Start with the lower number and go for the next
-when it passes. Repeat until all tests passes.
+
+Useful chrome extensions
+------------------------
+
+This are the recommended extensions:
+
+- Batarang: https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk?hl=en
+
+- Redux DevTools: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+
+
 
 Author
 ------
