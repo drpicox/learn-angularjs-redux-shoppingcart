@@ -1,11 +1,10 @@
-// http://redux.js.org/docs/basics/ExampleTodoList.html#componentsappjs
-angular.module('todoApp.components.App', [])
-	.component('taApp', {
+angular.module('shoppingCartApp.components.App', [])
+	.component('scApp', {
 		template: `
 			<div>
-				<ta-add-todo></ta-add-todo>
-				<ta-visible-todo-list></ta-visible-todo-list>
-				<ta-footer></ta-footer>
+				<br>
+				<sc-header></sc-header>
+				<sc-main-view></sc-main-view>
 			</div>	
 		`,
 	});

@@ -1,11 +1,10 @@
 // http://redux.js.org/docs/basics/ExampleTodoList.html#componentslinkjs
-angular.module('todoApp.components.Link', [])
-	.component('taLink', {
+angular.module('shoppingCartApp.components.Link', [])
+	.component('scLink', {
 		template:
-			`<span ng-if="$ctrl.active" ng-transclude></span>` +
-			`<a ng-if="!$ctrl.active"
-				href="#" ng-click="$event.preventDefault(); $ctrl.onClick()"
-				ng-transclude></a>`
+			`<span ng-style="$ctrl.active && {color: 'white'}"
+				ng-click="$event.preventDefault(); $ctrl.onClick()"
+				ng-transclude></span>`
 		,
 		bindings: {
 			onClick: '&',

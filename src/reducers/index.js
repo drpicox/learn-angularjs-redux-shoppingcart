@@ -1,5 +1,7 @@
-// http://redux.js.org/docs/basics/ExampleTodoList.html#reducers
-angular.module('todoApp.reducers', [
-		'todoApp.reducers.todos',
-		'todoApp.reducers.visibilityFilter',
+// DO NOT CHANGE
+// DO NOT MODIFY REDUCERS STRUCTURE
+angular.module('shoppingCartApp.reducers', [
+		'shoppingCartApp.reducers.catalog',
+		'shoppingCartApp.reducers.mainView',
+		'shoppingCartApp.reducers.shoppingList',
 	]);

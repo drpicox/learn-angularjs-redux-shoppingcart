@@ -1,9 +1,9 @@
-angular.module('todoApp', [
+angular.module('shoppingCartApp', [
 		'com.drpicox.angularjs-redux',
 
-		'todoApp.actions',
-		'todoApp.components',
-		'todoApp.containers',
-		'todoApp.reducers',
-		'todoApp.selectors',
+		'shoppingCartApp.actions',
+		'shoppingCartApp.components',
+		'shoppingCartApp.containers',
+		'shoppingCartApp.reducers',
+		'shoppingCartApp.selectors',
 	]);

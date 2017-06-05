@@ -1,10 +1,20 @@
-Example of AngularJS + Redux
+
 ============================
 
-Is an example that shows concepts explained at 
-https://github.com/drpicox/learn-angularjs-redux-bytesting
-in practice based in the original todo app redux example
-http://redux.js.org/docs/basics/ExampleTodoList.html .
+Follow the example of Example of AngularJS + Redux.
+Complete so:
+
+- Catalog show all products in the catalog
+- Each product shows how many products there are in the cart
+- Can increase or decrease product count
+- Update total price for each product
+- Update global cart count (number total of items)
+- Update global total price
+- Filter the list of the product carts to the ones that have at least one
+
+Do not modify existing reducers but add switch cases.
+Add necessary actions, containers and selectors.
+Update components to have necessary bindings, but do not add controllers to them.
 
 
 Setup

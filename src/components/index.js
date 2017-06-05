@@ -1,8 +1,9 @@
-// http://redux.js.org/docs/basics/ExampleTodoList.html#presentational-components
-angular.module('todoApp.components', [
-		'todoApp.components.App',
-		'todoApp.components.Footer',
-		'todoApp.components.Link',
-		'todoApp.components.Todo',
-		'todoApp.components.TodoList',
+angular.module('shoppingCartApp.components', [
+		'shoppingCartApp.components.App',
+		'shoppingCartApp.components.CartView',
+		'shoppingCartApp.components.CatalogView',
+		'shoppingCartApp.components.Header',
+		'shoppingCartApp.components.Link',
+		'shoppingCartApp.components.Product',
+		'shoppingCartApp.components.ProductList',
 	]);
